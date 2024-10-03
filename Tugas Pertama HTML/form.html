@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+</head>
+<body>
+    <h1>Formulir Pendaftaran Woi</h1>
+    <img src="FOTO.jpeg" alt="ini gambar baim" width="100px" height="160px">
+    <p></p>
+
+    <form>
+
+    nama : <input type="text" name="nama lengkap" placeholder="ketik namaluwh">
+    <br>
+    kota lahir : <input type="text" list="kota_lahir" name="kota_lahir">
+    <datalist id="kota_lahir">
+        <option value="semarang">semarang</option>
+        <option value="jogja">jogja</option>
+        <option value="klaten">klaten</option>
+        <option value="tlogosari">tlogosari</option>
+    </datalist>
+    <br>
+    tanggal lahir : <input type="date">
+    <br>
+    gender : <input type="radio" list="gender" value="pria">
+    pria
+    <input type="radio" list="gender" value="wanita">
+    waria
+    <datalist id="gender">
+        <option value="pria">pria</option>
+        <option value="wanita">wanita</option>
+    </datalist>
+    <br>
+    agama : <input type="radio" list="gender" value="islam">
+    islam
+    <input type="radio" list="gender" value="kristen">
+    kristen
+    <input type="radio" list="gender" value="hindu">
+    hindu
+    <input type="radio" list="gender" value="atheis">
+    atheis
+    <br>
+    alamat : <input type="textarea" placeholder="ketik alamatluwh">
+
+
+    </form>
+
+
+</body>
+</html>
